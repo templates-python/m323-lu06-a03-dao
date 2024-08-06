@@ -1,0 +1,32 @@
+[
+  {
+    "name": "test_add_item",
+    "function": "test_add_item",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_get_item",
+    "function": "test_get_item",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_get_all_items",
+    "function": "test_get_all_items",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_update_item",
+    "function": "test_update_item",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_delete_item",
+    "function": "test_delete_item",
+    "timeout": 10,
+    "points": 1
+  }
+]
