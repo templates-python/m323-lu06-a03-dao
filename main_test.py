@@ -1,6 +1,7 @@
 from todoItem import TodoItem
 from todoDao import TodoDao
 
+
 def test_add_item():
     dao = TodoDao('test_todo.db')
     dao.create_table()
@@ -12,6 +13,7 @@ def test_add_item():
     assert retrieved_item.is_completed == False
     dao.close()
 
+
 def test_get_item():
     dao = TodoDao('test_todo.db')
     retrieved_item = dao.get_item(1)
@@ -19,11 +21,13 @@ def test_get_item():
     assert retrieved_item.title == 'Test item'
     dao.close()
 
+
 def test_get_all_items():
     dao = TodoDao('test_todo.db')
     all_items = dao.get_all_items()
     assert len(all_items) == 1
     dao.close()
+
 
 def test_update_item():
     dao = TodoDao('test_todo.db')
@@ -34,6 +38,7 @@ def test_update_item():
     updated_item = dao.get_item(1)
     assert updated_item.title == 'Updated item'
     dao.close()
+
 
 def test_delete_item():
     dao = TodoDao('test_todo.db')
