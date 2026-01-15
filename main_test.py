@@ -1,5 +1,5 @@
-from todoItem import TodoItem
-from todoDao import TodoDao
+from todo_item import TodoItem
+from todo_dao import TodoDao
 
 
 def test_add_item():
