@@ -1,3 +1,8 @@
+"""ToDo-Liste mit SQLite und DAO-Klassen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu06/aufgaben/dao
+"""
+
 from todo_item import TodoItem
 from todo_dao import TodoDao
 
@@ -17,7 +22,8 @@ def main():
     retrieved_item = dao.get_item(1)
     if retrieved_item:
         print(
-            f"Item ID: {retrieved_item.item_id}, Title: {retrieved_item.title}, Is Completed: {retrieved_item.is_completed}"
+            f"Item ID: {retrieved_item.item_id}, Title: {retrieved_item.title}, "
+            f"Is Completed: {retrieved_item.is_completed}"
         )
 
     # Alle ToDo-Elemente abrufen
