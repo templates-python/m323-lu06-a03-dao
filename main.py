@@ -1,3 +1,8 @@
+"""ToDo-Liste mit SQLite und DAO-Klassen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu06/aufgaben/dao
+"""
+
 from todo_item import TodoItem
 from todo_dao import TodoDao
 
